@@ -1,0 +1,38 @@
+body {
+  /* MÀU NỀN */
+  background-color: rgb(171, 230, 230);
+}
+
+h1 {
+  /* MÀU CHỮ */
+  color: red;
+
+  /* KIỂU CHỮ */
+  font-style: italic;
+
+  /* font chữ */
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  /* căn giữa ,.. */
+  text-align: center;
+
+  /* CỠ CHỮ */
+  font-size: 50px;
+}
+
+h2 {
+  /* ĐỘ MỜ  1->100 ,  0%->100% */
+  opacity: 50%;
+}
+h3 {
+  /* ẨN KHỎI GIAO DIỆN -> TƯƠNG TÁC ĐƯỢC  */
+  display: none;
+}
+h4 {
+  /* ẨN KHÔNG TƯƠNG TÁC ĐƯỢC */
+  visibility: hidden;
+}
+h5 {
+  /* HIỂN THỊ  */
+  visibility: visible;
+}

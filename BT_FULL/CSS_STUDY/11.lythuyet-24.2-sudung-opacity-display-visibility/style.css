@@ -1,0 +1,19 @@
+img {
+  /*  */
+  transition: 1.5s;
+}
+
+input:checked ~ img {
+  /* NẾU MUỐN BIẾN MẤT KHỎI GIAO DIỆN  */
+  /* display: none; */
+
+  /* BIẾN KHỎI GIAO DIỆN , NHƯNG VẪN CHIẾM  */
+  /* visibility: hidden; */
+
+  /* LÀM MỜ ĐI  */
+  /* opacity: 0; */
+
+  /* LÀM MỜ ĐI VÀ KHÔNG TƯƠNG TÁC ĐƯỢC */
+  opacity: 0;
+  visibility: hidden;
+}
