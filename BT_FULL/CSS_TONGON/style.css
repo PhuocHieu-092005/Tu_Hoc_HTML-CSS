@@ -1,0 +1,38 @@
+/*1. TÁC DỤNG LÊN SECLECTOR KHI DI CHUỘT QUA */
+
+/* .di_chuot:hover {
+  color: red;
+  font-size: 30px;
+} */
+
+/*2. TÁC DỤNG LỂN SECLECTOR KHI GIỮ CHUỘT  */
+.di_chuot:active {
+  color: green;
+  font-size: 30px;
+}
+
+/* 3. TÁC DỤNG LÊN SECLECTOR KHI CHƯA VÀO LINK TRUY CẬP */
+.click_me:link {
+  color: chartreuse;
+}
+/* 4. TÁC DỤNG LÊN SECLECTOR KHI VÀO LINK TRUY CẬP */
+.click_me:visited {
+  color: cadetblue;
+}
+
+/*5. KHI TRỐNG NỘI DUNG THÌ HIỂN THỊ  */
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+}
+
+/* 6.HIỂN THỊ KHI CÓ NỘI DUNG  */
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(217, 9, 9);
+}
+h2:target {
+  color: blue;
+}

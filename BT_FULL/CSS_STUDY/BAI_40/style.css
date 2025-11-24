@@ -1,0 +1,60 @@
+.divv {
+  width: 100px;
+  height: 100px;
+  color: yellow;
+  background-color: red;
+
+  /* TRÊN DƯỚI - TRÁI PHẢI  */
+  padding: 20px 30px;
+
+  /* TRÊN -- TRÁI PHẢI - DƯỚI  */
+  padding: 20px 30px 40px;
+
+  /* TRÊN - PHẢI - DƯỚI - TRÁI  */
+  /* THEO CHIỀU KIM ĐỒNG HỒ  */
+  padding: 20px 30px 40px 50px;
+
+  /* BORDER */
+  border: 10px solid blue;
+
+  /* BORDER RADIUS */
+  border-radius: 30px;
+
+  /* GÓC DƯỚI BÊN PHẢI  */
+  border-bottom-right-radius: 50px;
+}
+
+/* .box1,
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(34, 6, 6);
+  color: aquamarine;
+  padding: 10px 30px;
+  border: 10px solid green;
+  margin: 15px;
+   float: left; 
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: chartreuse;
+}
+
+.box1 {
+  border: 10px solid rgb(247, 0, 0);
+}
+.box2 {
+  border: 20px solid rgb(7, 7, 250);
+  margin-left: 160px;
+}
+.box3 {
+  border: 30px solid rgba(204, 2, 255, 0.97);
+  margin-left: 340px;
+}
+.box4 {
+  border: 40px solid rgba(5, 246, 25, 0.97);
+  margin-left: 539px;
+}
