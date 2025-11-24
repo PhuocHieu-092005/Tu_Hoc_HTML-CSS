@@ -1,0 +1,82 @@
+/* a {
+  BỎ GẠCH CHÂN
+  background-color: pink;
+  text-decoration: none;
+  border-radius: 999px;
+  color: black;
+  width: 100px;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+  margin-top: 30px;
+} */
+
+/* a:hover {
+  background-color: rgb(80, 68, 68);
+  color: aqua;
+} */
+/* .parent {
+  width: 80vw;
+  height: 80vh;
+  background-color: rgb(243, 252, 6);
+}
+
+.child {
+  width: 50vw;
+  height: 50vw;
+  background-color: violet;
+}
+body {
+  font-family: "Inter", sans-serif;
+} */
+
+/* .box {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  overflow: scroll;
+  overscroll-behavior: auto;
+} */
+
+/* h1 {
+  width: 300px;
+  background-color: pink;
+  KHÔNG BỊ ĐẨY CHỮ XUỐNG
+  white-space: nowrap;
+  ẨN NỘI DUNG THỪA
+  overflow: hidden;
+  TẠO DẤU ..
+  text-overflow: ellipsis;
+} */
+
+/* LÀM DẤU 3... Ở DÒNG 2,3... */
+/* h2 {
+  background-color: pink;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+} */
+.contaner li {
+  /* LOẠI BỎ DẤU CHẤM RA KHỎI THẺ LI  */
+  list-style-type: none;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  float: left;
+}
+.fa-brands,
+.fa-solid {
+  color: violet;
+  margin-right: 4px;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.box {
+  height: 800vh;
+  background-image: url(./img/6376081.png), url(./img/tải\ xuống.jpg);
+  /* background-image: none; */
+  background-repeat: repeat;
+}
